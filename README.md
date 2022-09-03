@@ -10,6 +10,8 @@ This is a simple web portfolio of sorts for [Chris Marasco](chrismarasco.io).
 - [React](https://reactjs.org/)
 - [AWS Amplify](https://aws.amazon.com/amplify/)
 - [Node.js v16](https://nodejs.org/en/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Enzyme](https://enzymejs.github.io/enzyme/)
 - [Yarn](https://yarnpkg.com/)
 - [Material UI](https://mui.com/)
 
