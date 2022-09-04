@@ -5,7 +5,6 @@ module.exports = {
     node: true
   },
 
-
   parserOptions: {
     project: ['./tsconfig.json'], // Specify it only for TypeScript files
   },
