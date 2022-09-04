@@ -4,21 +4,28 @@ module.exports = {
     es2021: true,
     node: true
   },
-  extends: [
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
-  ],
+
 
   parserOptions: {
     project: ['./tsconfig.json'], // Specify it only for TypeScript files
   },
   overrides: [
     {
-      files: ['*.ts', '*.tsx']
-    }
+      files: ['*.ts', '*.tsx'],
+      extends: [
+        'plugin:@typescript-eslint/recommended',
+        'plugin:@typescript-eslint/recommended-requiring-type-checking',
+      ],
+      parserOptions: {
+        project: ['./tsconfig.json'], // Specify it only for TypeScript files
+      },
+    },
+    
   ],
+  parser: '@typescript-eslint/parser',
   plugins: [
-    'react'
+    'react',
+    "@typescript-eslint",
   ],
   rules: {
   }
