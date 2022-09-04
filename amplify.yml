@@ -2,7 +2,7 @@ version: 1
 frontend:
   phases:
     build:
-      commands: ["cd ./portfolio","yarn install && yarn build"]
+      commands: ["cd ./portfolio","yarn install && npx eslint src/*.js && yarn build"]
     test:
       commands: ["yarn test"]
   artifacts:
