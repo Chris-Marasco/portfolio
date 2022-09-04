@@ -25,7 +25,4 @@
     "./jest-setup.ts",
     "./src/setupTests.ts"
   ],
-  "references": [
-    { "App" :"./src/app/"}
-  ]
 }
