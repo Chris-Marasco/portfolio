@@ -9,6 +9,9 @@ module.exports = {
     'standard-with-typescript'
   ],
   overrides: [
+    {
+      files: ['*.ts', '*.tsx']
+    }
   ],
   parserOptions: {
     ecmaVersion: 'latest',
