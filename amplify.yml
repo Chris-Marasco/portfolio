@@ -6,7 +6,7 @@ frontend:
     test:
       commands: ["yarn test"]
   artifacts:
-    baseDirectory: "./build"
+    baseDirectory: "."
     files:
       - '**/*'
   cache:
