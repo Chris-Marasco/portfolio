@@ -1,0 +1,13 @@
+version: 1
+frontend:
+  phases:
+    build:
+      commands: ["cd ./portfolio","yarn install && yarn build"]
+    test:
+      commands: ["yarn test"]
+  artifacts:
+    baseDirectory: ./portfolio/build/
+    files:
+      - '**/*'
+  cache:
+    paths: []
